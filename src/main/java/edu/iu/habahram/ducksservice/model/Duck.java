@@ -1,5 +1,7 @@
 package edu.iu.habahram.ducksservice.model;
 
+import jakarta.persistence.Id;
+
 public abstract class Duck {
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
